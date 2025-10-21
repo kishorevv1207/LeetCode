@@ -17,7 +17,7 @@ Explanation: There is no common prefix among the input strings.
 """
 
 class Solution:
-    def longestCommonPrefix(self, strs: List[str]) -> str:
+    def longestCommonPrefix(self, strs) -> str:
         key = min(strs, key=len)
         out=""
         for i in range(0,len(key)):
